@@ -2,6 +2,8 @@
 
 This project demonstrates an issue with SVG interpolation in styled-jsx when using dynamic values.
 
+![Screenshot showing the styled-jsx SVG interpolation issue](https://share.cleanshot.com/bnPYYDTn+)
+
 ## The Problem
 
 When using styled-jsx with SVG data URIs in CSS properties (like `mask-image`), string interpolation with dynamic values fails to work properly. The interpolated values are not correctly inserted into the SVG string.
